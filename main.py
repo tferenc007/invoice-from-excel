@@ -51,7 +51,7 @@ for file_path in file_paths:
 
     pdf.set_font(family='Times', size=14, style='B' )
     pdf.cell(w=25, h=8, txt='PythonHow')
-    pdf.image("pythonhow.png", w=10)
+    pdf.image("pythonhow.png",)
 
 
 
